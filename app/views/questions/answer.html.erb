@@ -1,0 +1,10 @@
+<h1 class="text-center mt-5 mb-4">Stupid Coach</h1>
+<div class="text-center">
+  <h4>Your question:</h4>
+  <p><%= @pregunta %></p>
+
+  <h4>Coach answer:</h4>
+  <p class="mt-4 mb-4"><%= @answer %></p>
+
+  <%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
+</div>
